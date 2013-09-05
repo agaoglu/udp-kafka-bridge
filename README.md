@@ -2,6 +2,10 @@
 
 Sends any message received from a specified UDP port to a specified [kafka](http://kafka.apache.org/) topic. We use it to push syslog messages to kafka.
 
+## Download
+
+[udp-kafka-bridge-assembly-0.1.jar](https://github.com/agaoglu/udp-kafka-bridge/releases/download/v0.1/udp-kafka-bridge-assembly-0.1.jar)
+
 ## Run
 
 To listen on port `10514` and use `mytopic` on a local broker just run:
