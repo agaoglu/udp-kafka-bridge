@@ -1,6 +1,6 @@
 # UDP-Kafka-Bridge
 
-Sends any message received from a specified UDP port to a specified [kafka](http://kafka.apache.org/) topic.
+Sends any message received from a specified UDP port to a specified [kafka](http://kafka.apache.org/) topic. We use it to push syslog messages to kafka.
 
 ## Run
 
