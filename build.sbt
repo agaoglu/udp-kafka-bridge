@@ -1,5 +1,3 @@
-import AssemblyKeys._
-
 organization  := "org.apache.kafka"
 
 name          := "udp-kafka-bridge"
@@ -27,5 +25,3 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka"       %%  "akka-testkit"     % "2.2.1"  % "test",
   "org.specs2"              %%  "specs2"           % "2.2"    % "test"
 )
-
-assemblySettings
